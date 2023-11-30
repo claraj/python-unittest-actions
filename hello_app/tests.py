@@ -7,7 +7,7 @@ class TestHelloMessage(SimpleTestCase):
     def test_hello_message(self):
 
         page = self.client.get('')   # get the home page
-        self.assertContains(page, 'Hello everyone!')
+        self.assertContains(page, 'Hello everyone! Try Two')
 
 
 class TestTwoPlusTwo(SimpleTestCase):
