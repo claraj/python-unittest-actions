@@ -3,6 +3,7 @@ from .math import addition
 
 
 def hello(request):
+    # Updated response
     return HttpResponse('Hello Everyone!')
 
 
