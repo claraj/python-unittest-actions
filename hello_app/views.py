@@ -4,7 +4,7 @@ from .math import addition
 
 def hello(request):
     # Updated response
-    return HttpResponse('Hello Everyone!')
+    return HttpResponse('Hello everyone!')
 
 
 def two_plus_two(request):
