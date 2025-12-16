@@ -3,7 +3,11 @@ from .math import addition
 
 
 def hello(request):
-    return HttpResponse('Go away!')
+    """
+    This view handles the home page request.
+    It returns a friendly greeting message to the user.
+    """
+    return HttpResponse('Hello everyone!')
 
 
 def two_plus_two(request):
