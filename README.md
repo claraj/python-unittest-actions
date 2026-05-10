@@ -40,4 +40,4 @@ The tests are correct. They are failing because there are bugs in the code.
 6. Push your branch to GitHub
 7. Observe output from Actions in the pull request
 
-
+# encountering weird issues see if pushing to main works
